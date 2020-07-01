@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+#157811
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height:100vh;
+	background: #131313;
+
+}
+.name{
+	text-transform: uppercase;
+	padding: 10px 5px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+.container{
+	position: relative;
+	
+
+
+
+}
+.big-three{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 20px;
+}
+
+.important-four{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px 20px;
+
+}
+.container .card7{
+	position: relative;
+	width: 260px;
+	height:400px;
+	margin: 15px 15px;
+	background:#232323;
+	border-radius: 25px;
+	overflow: hidden;
+	
+
+}
+.container .card7:before{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	background: #A9A9A9;
+	clip-path: circle(150px at 85% 15%);
+	transition : 0.5s ease-in-out;
+
+
+}
+.container .card7:hover:before{
+	clip-path: circle(320px at 70% -20%);
+}
+.container .card7:after{
+	content: 'Council of Minister';
+	position: absolute;
+	top:45%;
+	left: -5%;
+	font-size: 3.5em;
+	font-weight: 800;
+	font-style: italic;
+	color:rgba(255,255,255,0.04);
+
+}
+
+
+
+.container .card6{
+	position: relative;
+	width: 260px;
+	height:400px;
+	margin: 15px 15px;
+	background:#232323;
+	border-radius: 25px;
+	overflow: hidden;
+	
+
+}
+.container .card6:before{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	background:#660000;
+	clip-path: circle(150px at 85% 15%);
+	transition : 0.5s ease-in-out;
+
+}
+.container .card6:hover:before{
+	clip-path: circle(320px at 70% -20%);
+}
+.container .card6:after{
+	content: 'Council of Minister';
+	position: absolute;
+	top:45%;
+	left: -5%;
+	font-size: 3.5em;
+	font-weight: 800;
+	font-style: italic;
+	color:rgba(255,255,255,0.04);
+
+}
+
+.container .card5{
+	position: relative;
+	width: 260px;
+	height:400px;
+	margin: 15px 15px;
+	background:#232323;
+	border-radius: 25px;
+	overflow: hidden;
+	
+
+}
+.container .card5:before{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	background: #3b5998;
+	clip-path: circle(150px at 85% 15%);
+	transition : 0.5s ease-in-out;
+
+}
+.container .card5:hover:before{
+	clip-path: circle(320px at 70% -20%);
+}
+.container .card5:after{
+	content: 'Council of Minister';
+	position: absolute;
+	top:45%;
+	left: -5%;
+	font-size: 3.5em;
+	font-weight: 800;
+	font-style: italic;
+	color:rgba(255,255,255,0.04);
+
+}
+
+.container .card4{
+	position: relative;
+	width: 260px;
+	height:400px;
+	margin: 15px 15px;
+	background:#232323;
+	border-radius: 25px;
+	overflow: hidden;
+	
+
+}
+.container .card4:before{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	background: rgb(240,188,66);
+background: radial-gradient(circle, rgba(240,188,66,1) 0%, rgba(142,31,59,1) 60%);
+	clip-path: circle(150px at 85% 15%);
+	transition : 0.5s ease-in-out;
+
+}
+.container .card4:hover:before{
+	clip-path: circle(320px at 70% -20%);
+}
+.container .card4:after{
+	content: 'Council of Minister';
+	position: absolute;
+	top:45%;
+	left: -5%;
+	font-size: 3.5em;
+	font-weight: 800;
+	font-style: italic;
+	color:rgba(255,255,255,0.04);
+
+}
+
+.container .card3{
+	position: relative;
+	width: 260px;
+	height:400px;
+	margin: 15px 15px;
+	background:#232323;
+	border-radius: 25px;
+	overflow: hidden;
+	
+
+}
+.container .card3:before{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	background: #d47636;
+	clip-path: circle(150px at 85% 15%);
+	transition : 0.5s ease-in-out;
+
+}
+.container .card3:hover:before{
+	clip-path: circle(320px at 70% -20%);
+}
+.container .card3:after{
+	content: 'Council of Minister';
+	position: absolute;
+	top:45%;
+	left: -5%;
+	font-size: 3.5em;
+	font-weight: 800;
+	font-style: italic;
+	color:rgba(255,255,255,0.04);
+
+}
+
+
+.container .card2{
+	position: relative;
+	width: 260px;
+	height:400px;
+	margin: 15px 15px;
+	background:#232323;
+	border-radius: 25px;
+	overflow: hidden;
+	
+
+}
+.container .card2:before{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	background: rgb(131,58,180);
+	background: linear-gradient(142deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	clip-path: circle(150px at 85% 15%);
+	transition : 0.5s ease-in-out;
+
+}
+.container .card2:hover:before{
+	clip-path: circle(320px at 70% -20%);
+}
+.container .card2:after{
+	content: 'Council of Minister';
+	position: absolute;
+	top:45%;
+	left: -5%;
+	font-size: 3.5em;
+	font-weight: 800;
+	font-style: italic;
+	color:rgba(255,255,255,0.04);
+
+}
+
+.container .card{
+	position: relative;
+	width: 260px;
+	height:400px;
+	margin: 15px 15px;
+	background:#232323;
+	border-radius: 25px;
+	overflow: hidden;
+	
+
+}
+.container .card:before{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	background: #157811;
+	clip-path: circle(150px at 85% 15%);
+	transition : 0.5s ease-in-out;
+
+}
+.container .card:hover:before{
+	clip-path: circle(320px at 70% -20%);
+}
+.container .card:after{
+	content: 'Council of Minister';
+	position: absolute;
+	top:45%;
+	left: -5%;
+	font-size: 3.5em;
+	font-weight: 800;
+	font-style: italic;
+	color:rgba(255,255,255,0.04);
+
+}
+
+.imgBx{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	z-index:10000;
+	width: 100%;
+	height: 220px;
+	
+	
+
+}
+.imgBx img{
+	position: absolute;
+	top:30%;
+	left:10%;
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;
+}
+
+#jb{
+	position: absolute;
+	top:50%;
+	left:-10%;
+}
+/*.container .fellow{
+	position: absolute;
+	width: 320px;
+	height:70px;
+	background:#232323;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-top: 10px ;
+	align-items: center;
+	text-align: center;
+	bottom: 0;
+
+
+
+}
+.container .fellow .qu{
+	font-weight: 800;
+	padding-top: 50px ;
+	
+
+}*/
+.role{
+	position: relative;
+	padding: 10px 5px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+	
